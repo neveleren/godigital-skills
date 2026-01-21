@@ -19,10 +19,10 @@ Contains GoDigital's complete brand guidelines:
 - Typography
 - Brand voice
 
-### 2. ICP (Ideal Customer Profile) Skill
+### 2. ICP (Ideal Customer Profile) Skill - GoDigital
 **File:** `skills/icp-skill.md`
 
-Contains GoDigital's ideal customer profile:
+Contains GoDigital's ideal customer profile for automation services:
 - Target company characteristics
 - Decision maker personas
 - Pain points and triggers
@@ -31,17 +31,55 @@ Contains GoDigital's ideal customer profile:
 - Sales messaging templates
 - DACH region specifics
 
+### 3. Mercedes-AMG SL43 ICP Skill
+**File:** `skills/mercedes-sl43-icp-skill.md`
+
+Ideal Customer Profile for selling a Mercedes-AMG SL43 in South Africa:
+- Target buyer demographics (age, income, occupation)
+- Psychographics and lifestyle
+- Buying behavior and triggers
+- Pain points and desires
+- Messaging strategy
+- Decision logic for content creation
+
+### 4. Autotrader Listing Skill
+**File:** `skills/autotrader-listing-skill.md`
+
+Generates optimized Autotrader South Africa listings:
+- Title and description templates
+- Feature categorization
+- Writing guidelines (do's and don'ts)
+- Photo requirements
+- Pricing guidance
+- Complete listing output format
+
+---
+
+## Projects Using These Skills
+
+### Mercedes-AMG SL43 | Autotrader ZA Sale
+
+This project uses skills #3 and #4 to create an optimized Autotrader listing for a 2024 Mercedes-AMG SL43 in Cape Town, South Africa.
+
+**Skills involved:**
+- `mercedes-sl43-icp-skill.md` - Defines the ideal buyer
+- `autotrader-listing-skill.md` - Generates the listing copy
+
+---
+
 ## How to Use These Skills
 
 ### In Claude Code (VS Code Extension)
 
 You can reference these skills in your CLAUDE.md file or point Claude to this repository.
 
-### In Claude Desktop App
+### In Claude Desktop App / Claude.ai
 
-Provide the GitHub link and ask Claude to use these skills for relevant tasks.
+1. Create a new Project (e.g., "Mercedes-AMG SL43 | Autotrader ZA Sale")
+2. Add the skill files as Project Knowledge
+3. Claude will use the skills when working on related tasks
 
-### Installation
+### In GitHub Desktop
 
 Clone this repository to your local machine:
 
@@ -54,6 +92,8 @@ Or in GitHub Desktop:
 2. Select `neveleren/godigital-skills`
 3. Choose where to save it
 4. Click Clone
+
+---
 
 ## Contributing
 
